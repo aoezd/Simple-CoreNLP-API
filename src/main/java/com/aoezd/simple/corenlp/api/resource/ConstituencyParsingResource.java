@@ -12,7 +12,7 @@ import com.codahale.metrics.annotation.Timed;
 import edu.stanford.nlp.simple.Sentence;
 import edu.stanford.nlp.trees.Tree;
 
-@Path("parse")
+@Path("/parse")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class ConstituencyParsingResource {
