@@ -21,6 +21,14 @@ java -jar aoezd-simple-corenlp-api-1.0.0-all.jar server config.yml
 ```
 
 ## Resources
+Send a POST request with a JSON payload like this:
+```
+{
+  text: "YOUR SENTENCE"
+}
+```
+to any of the following resources:
+
 FUNCTIONALITY | ANNOTATOR IN CORENLP | RESOURCE
 ------------ | ------------- | -------------
 Tokenization | tokenize | /tokenize
