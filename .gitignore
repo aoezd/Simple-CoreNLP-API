@@ -26,6 +26,9 @@ tmp/
 local.properties
 .settings/
 .loadpath
+.classpath
+.project
+.metadata
 .recommenders
 .externalToolBuilders/
 *.launch
