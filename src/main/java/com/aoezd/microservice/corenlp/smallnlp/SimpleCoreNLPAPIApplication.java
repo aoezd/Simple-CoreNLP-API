@@ -18,7 +18,7 @@ import io.dropwizard.setup.Environment;
 public class SimpleCoreNLPAPIApplication extends Application<SimpleCoreNLPAPIConfiguration> {
 
 	public static void main(String[] args) throws Exception {
-		new SmallNLPApplication().run(args);
+		new SimpleCoreNLPAPIApplication().run(args);
 	}
 
 	@Override
