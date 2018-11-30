@@ -19,3 +19,5 @@ cp ../../src/main/resources/config.yml .
 
 java -jar aoezd-simple-corenlp-api-1.0.0-all.jar server config.yml
 ```
+
+## Swagger API description
