@@ -22,7 +22,7 @@ java -jar aoezd-simple-corenlp-api-1.0.0-all.jar server config.yml
 
 ## Resources
 FUNCTIONALITY | ANNOTATOR IN CORENLP | RESOURCE
------------- | -------------
+------------ | ------------- | -------------
 Tokenization | tokenize | /tokenize
 Tokenization | tokenize | /tokenize/{index}
 Lemmatization | lemma | /lemma
