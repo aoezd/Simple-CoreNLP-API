@@ -15,14 +15,14 @@ import com.aoezd.microservice.corenlp.smallnlp.resource.TokenizationResource;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
 
-public class SmallNLPApplication extends Application<SmallNLPConfiguration> {
+public class SimpleCoreNLPAPIApplication extends Application<SimpleCoreNLPAPIConfiguration> {
 
 	public static void main(String[] args) throws Exception {
 		new SmallNLPApplication().run(args);
 	}
 
 	@Override
-	public void run(SmallNLPConfiguration configuration, Environment environment) throws Exception {
+	public void run(SimpleCoreNLPAPIConfiguration configuration, Environment environment) throws Exception {
 
 		// Register all healthchecks
 		environment.healthChecks().register("TestHealthCheck", new TestHealthCheck(configuration.getTest()));

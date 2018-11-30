@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import io.dropwizard.Configuration;
 
-public class SmallNLPConfiguration extends Configuration {
+public class SimpleCoreNLPAPIConfiguration extends Configuration {
 
 	@JsonProperty
 	@NotEmpty
