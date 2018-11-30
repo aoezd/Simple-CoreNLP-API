@@ -20,4 +20,24 @@ cp ../../src/main/resources/config.yml .
 java -jar aoezd-simple-corenlp-api-1.0.0-all.jar server config.yml
 ```
 
-## Swagger API description
+## Resources
+FUNCTIONALITY | ANNOTATOR IN CORENLP | RESOURCE
+------------ | -------------
+Tokenization | tokenize | /tokenize
+Tokenization | tokenize | /tokenize/{index}
+Lemmatization | lemma | /lemma
+Lemmatization | lemma | /lemma/{index}
+Sentence Splitting | ssplit | /ssplit
+Sentence Splitting | ssplit | /ssplit/{index}
+Part of Speech Tagging | pos | /pos
+Part of Speech Tagging | pos | /pos/{index}
+Open Information Extraction | openie | /openie
+Open Information Extraction | openie | /openieTriples
+Natural Logic Polarity | natlog | /natlog
+Natural Logic Polarity | natlog | /natlog/{index}
+Named Entity Recognition | ner | /ner
+Named Entity Recognition | ner | /ner/{index}
+Dependency Parsing | depparse | /governor/{index}
+Dependency Parsing | depparse | /incomingDependencyLabel/{index}
+Coreference Resolution | dcoref | /coref
+Constituency Parsing | parse | /parse
