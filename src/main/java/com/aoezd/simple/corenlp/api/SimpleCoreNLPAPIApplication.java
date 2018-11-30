@@ -1,16 +1,16 @@
-package com.aoezd.microservice.corenlp.smallnlp;
+package com.aoezd.simple.corenlp.api;
 
-import com.aoezd.microservice.corenlp.smallnlp.healthcheck.TestHealthCheck;
-import com.aoezd.microservice.corenlp.smallnlp.resource.ConstituencyParsingResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.CoreferenceResolutionResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.DependencyParsingResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.LemmaResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.NamedEntityRecognitionResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.NaturalLogicPolarityResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.OpenInformationExtractionResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.PartOfSpeechTaggingResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.SentenceSplittingResource;
-import com.aoezd.microservice.corenlp.smallnlp.resource.TokenizationResource;
+import com.aoezd.simple.corenlp.api.healthcheck.TestHealthCheck;
+import com.aoezd.simple.corenlp.api.resource.ConstituencyParsingResource;
+import com.aoezd.simple.corenlp.api.resource.CoreferenceResolutionResource;
+import com.aoezd.simple.corenlp.api.resource.DependencyParsingResource;
+import com.aoezd.simple.corenlp.api.resource.LemmaResource;
+import com.aoezd.simple.corenlp.api.resource.NamedEntityRecognitionResource;
+import com.aoezd.simple.corenlp.api.resource.NaturalLogicPolarityResource;
+import com.aoezd.simple.corenlp.api.resource.OpenInformationExtractionResource;
+import com.aoezd.simple.corenlp.api.resource.PartOfSpeechTaggingResource;
+import com.aoezd.simple.corenlp.api.resource.SentenceSplittingResource;
+import com.aoezd.simple.corenlp.api.resource.TokenizationResource;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;

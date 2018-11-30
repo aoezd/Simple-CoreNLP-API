@@ -1,4 +1,4 @@
-package com.aoezd.microservice.corenlp.smallnlp.resource;
+package com.aoezd.simple.corenlp.api.resource;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.aoezd.microservice.corenlp.smallnlp.model.Text;
+import com.aoezd.simple.corenlp.api.model.Text;
 import com.codahale.metrics.annotation.Timed;
 
 import edu.stanford.nlp.naturalli.Polarity;

@@ -1,4 +1,4 @@
-package com.aoezd.microservice.corenlp.smallnlp.healthcheck;
+package com.aoezd.simple.corenlp.api.healthcheck;
 
 import com.codahale.metrics.health.HealthCheck;
 

@@ -1,4 +1,4 @@
-package com.aoezd.microservice.corenlp.smallnlp;
+package com.aoezd.simple.corenlp.api;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
