@@ -4,7 +4,7 @@ A small Dropwizard project that abstracts the Stanfords [Simple CoreNLP API](htt
 
 ## Getting started
 
-Open a command line (UNIX) and type the following:
+Open a command line (UNIX) and type the following to start the server:
 
 ```
 git clone https://github.com/aoezd/aoezd-simple-corenlp-api.git
